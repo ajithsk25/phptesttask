@@ -42,7 +42,7 @@ class Bootstrap
      *
      * @param string $csvFile Path name for CSV file
      *
-     * @returns array
+     * @return array
      */
     public static function parseStatementCSV($csvFile)
     {
@@ -99,7 +99,7 @@ class Bootstrap
      *
      * @param string $date Date string
      *
-     * @returns string
+     * @return string
      */
     public static function formatDate($date)
     {
